@@ -1,4 +1,4 @@
-scene.setBackgroundColor(7)
+scene.setBackgroundColor(4)
 controller.moveSprite(mySprite)
 
 sprites.onOverlap(SpriteKind.Player, SpriteKind.Food, function (sprite, otherSprite) {
